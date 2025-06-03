@@ -23,7 +23,7 @@ spec:
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: quay.io/redhat-user-workloads-stage/rh-ee-hongliu-tenant/clair-scan-0-dot-2:{{revision}}
+    value: quay.io/redhat-user-workloads-stage/rh-ee-hongliu-tenant/clair-scan:{{revision}}
   - name: dockerfile
     value: Dockerfile
   - name: path-context
